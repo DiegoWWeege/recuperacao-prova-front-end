@@ -1,0 +1,420 @@
+/*Import da url para utilizarmos a fonte Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Seta a margin e o padding e ja deixa a fonte da lading page inteira como Inter*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Seta as imagens como object-fit: cover*/
+img{
+    object-fit: cover;
+}
+
+/*Aplica elementos ao header*/
+header{
+    background-color: #012E33;
+    width: 100vw;
+    border-bottom: 1px solid #1A4347;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/*Caracteriza o botão Get Started*/
+.get-started-button{
+    background-color: #0EB770;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 2.5rem;
+    width: 8.063rem;
+    border-style: none;
+    justify-self: end;   
+}
+
+/*Faz os ajustes necessários na section dentro da header*/
+header section{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*-------------------------------------------------*/
+
+/*Ajusta a hero-section*/
+.hero-section{
+    background-color: #012E33;
+    padding-top: 4.313rem;
+    box-sizing: border-box;
+}
+
+/*Estiliza o h1 da hero-*/
+.hero-section h1{
+    font-family: "Inter" , sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.75rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+    
+}
+
+/*Estiliza o span dentro do h1*/
+.hero-section span{
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    font-style: italic;
+}
+
+/*Estiliza o p da hero-section*/
+.hero-section p{
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 1.625rem;
+    margin-bottom: 4.313rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+}
+
+.hero-section #buttons-section button{
+    width: 21.438rem;
+    height: 3.5rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+}
+
+.hero-section #buttons-section .get-started-button{
+    margin-bottom: 1rem;
+}
+
+.hero-section #buttons-section .play-demo-button{
+    border: 1px solid #044046;
+    border-radius: 100px;
+    background: none;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero-section img{
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+/*-------------------------------------------------*/
+
+.section-patient-journey{
+    background-color: #E4F2F3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.section-patient-journey h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #012E33;
+    text-align: center;
+}
+
+.section-patient-journey span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-patient-journey p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.section-patient-journey img{
+    height: 21.438rem;
+    width: 20.875rem;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.section-patient-journey .image-text-benefits h2{
+    text-align: start;
+}
+
+.section-patient-journey .image-text-benefits p{
+    text-align:  start;
+}
+
+.image-text-benefits .benefits-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    margin-top: 1.313rem;
+    margin-bottom: 2rem;
+}
+
+.image-text-benefits .benefits-grid img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0px;
+
+}
+
+.image-text-benefits .benefits-grid p{
+    margin: 0px;
+    align-self: center;
+    font-weight: 500;
+}
+
+.image-text-benefits .get-started-button{
+    height: 3rem;
+    width: 8.563rem;
+}
+
+/*-------------------------------------------------*/
+
+.section-empowering-healthcare .main-text{
+    margin-top: 3.75rem;
+    margin-left: 1rem;
+}
+
+.section-empowering-healthcare .main-text h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 36px;
+    color: #012E33;
+    margin-bottom: 0.75rem;
+}
+
+.section-empowering-healthcare .main-text span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-empowering-healthcare .main-text p{
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #012E33E5;
+    margin-bottom: 2.5rem;
+    
+}
+
+.section-empowering-healthcare .boxes-grid{
+    display: grid;
+    grid-template-columns: 21.438rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1.25rem;
+    padding-bottom: 1.5rem;
+}
+
+.boxes-grid .large-box{
+    background-color: #F3F5F7;
+    height: 22.5rem;
+    padding-left: 1.25rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.boxes-grid .tiny-box{
+    background-color: #F3F5F7;
+    height:16.25rem;
+    padding-left:1.25rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.boxes-grid .first-p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    font-family:"Inter" , sans-serif;
+    margin-top: 1.75rem;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    color: #012E33
+}
+
+.boxes-grid .second-p {
+    font-family: "Inter" , sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 26px;
+    font-size: 18px;
+    color: #012E33;
+}
+
+.boxes-grid .large-box .second-p{
+    margin-bottom: 11.25rem;
+}
+
+.boxes-grid .tiny-box .second-p{
+    margin-bottom: 5rem;
+}
+
+.boxes-grid .third-p {
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #012E33E5
+}
+
+
+
+/*------------------------------------------------*/
+#plans-section{
+    background-color: #E4F2F3;
+    padding: 3.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#plans-section h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #012E33;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#plans-section span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#plans-section p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+    
+}
+
+#plans-section #main-paragraph{
+    margin-bottom: 2.5rem;
+}
+
+#plans-section .plans-universal-paragraph{
+    font-weight: 500;
+    font-style: bold;
+    text-align: start;
+}
+
+#plans-section .white-plan{
+    background-color: white;
+    border-radius: 16px;
+    padding: 1rem; 
+}
+
+#plans-section .white-plan .title{
+    text-align: start;
+    color: #012E33;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#plans-section .white-plan .price{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 1.25rem;
+}
+
+#plans-section .white-plan .blank-get-started-button{
+    background: none;
+    border-style: none;
+    border: 1px solid #20484C;
+    border-radius: 100px;
+    color: #20484C;
+    width: 19.438rem;
+    height: 3rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#plans-section .qualities-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+#plans-section .qualities-grid p{
+    margin: 0px;
+}
+
+#plans-section #green-plan{
+    background-color: #0EB770;
+    padding: 2px;
+    padding-top: 0.5rem;
+    border-radius: 16px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+#plans-section #green-plan #green-plan-text{
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+}
+
+#plans-section #green-plan .white-plan .get-started-button{
+    height: 3rem;
+    width: 19.438rem;
+    margin-top: 1.25rem;
+    margin-bottom:1.25rem ;
+}
+
+/*-----------------------------------------------------------------*/
+
+#clients-opinions-section{
+    padding: 1rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+#clients-opinions-section #number-of-reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: ;
+}
+
+/*-----------------------------------------------------------------*/
+
+.discover{
+    background-color: #012E33
+}
+
+.discover h2{
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 46px;
+    color: #E6EAEB;
+    padding-top: 2.5rem;
+}
+
+.discover span{
+    font-weight: 500;
+    font-style: italic;
+}

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    object-fit: cover;
+}
+
+header{
+    background-color: #012E33;
+    width: 100vw;
+    border-bottom: 1px solid #1A4347;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.get-started-button{
+    background-color: #0EB770;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 2.5rem;
+    width: 8.063rem;
+    border-style: none;
+    justify-self: end;
+    
+}
+
+header section{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*-------------------------------------------------*/
+
+.hero-section{
+    background-color: #012E33;
+    padding-top: 4.313rem;
+    box-sizing: border-box;
+}
+
+.hero-section h1{
+    font-family: "Inter" , sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.75rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+    
+}
+
+.hero-section span{
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    font-style: italic;
+}
+
+.hero-section p{
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 1.625rem;
+    margin-bottom: 4.313rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+}
+
+.hero-section #buttons-section button{
+    width: 21.438rem;
+    height: 3.5rem;
+    margin-left: 1.375rem;
+    margin-right: 0.625rem;
+}
+
+.hero-section #buttons-section .get-started-button{
+    margin-bottom: 1rem;
+}
+
+.hero-section #buttons-section .play-demo-button{
+    border: 1px solid #044046;
+    border-radius: 100px;
+    background: none;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero-section img{
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+/*-------------------------------------------------*/
+
+.section-patient-journey{
+    background-color: #E4F2F3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.section-patient-journey h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #012E33;
+    text-align: center;
+}
+
+.section-patient-journey span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-patient-journey p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.section-patient-journey img{
+    height: 21.438rem;
+    width: 20.875rem;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.section-patient-journey .image-text-benefits h2{
+    text-align: start;
+}
+
+.section-patient-journey .image-text-benefits p{
+    text-align:  start;
+}
+
+.image-text-benefits .benefits-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    margin-top: 1.313rem;
+    margin-bottom: 2rem;
+}
+
+.image-text-benefits .benefits-grid img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0px;
+
+}
+
+.image-text-benefits .benefits-grid p{
+    margin: 0px;
+    align-self: center;
+    font-weight: 500;
+}
+
+.image-text-benefits .get-started-button{
+    height: 3rem;
+    width: 8.563rem;
+}
+
+/*-------------------------------------------------*/
+
+.section-empowering-healthcare .main-text{
+    margin-top: 3.75rem;
+    margin-left: 1rem;
+}
+
+.section-empowering-healthcare .main-text h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 36px;
+    color: #012E33;
+    margin-bottom: 0.75rem;
+}
+
+.section-empowering-healthcare .main-text span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-empowering-healthcare .main-text p{
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #012E33E5;
+    margin-bottom: 2.5rem;
+    
+}
+
+.section-empowering-healthcare .boxes-grid{
+    display: grid;
+    grid-template-columns: 21.438rem;
+    border-radius: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1.25rem;
+}
+
+.boxes-grid .large-box{
+    background-color: #F3F5F7;
+    height: 22.5rem;
+    padding-left: 1.25rem;
+    box-sizing: border-box;
+}
+
+.boxes-grid .tiny-box{
+    background-color: #F3F5F7;
+    height:16.25rem;
+    padding-left:1.25rem;
+    box-sizing: border-box;
+}
+
+.boxes-grid .first-p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    font-family:"Inter" , sans-serif;
+    margin-top: 1.75rem;
+    margin-box-sizing: border-box;
+    margin-bottom: 0.5rem;
+}
+
+.boxes-grid .second-p {
+    font-family: ;
+}
+
+
+
+/*------------------------------------------------*/
+#plans-section{
+    background-color: #E4F2F3;
+    padding: 3.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#plans-section h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #012E33;
+    text-align: center;
+}
+
+#plans-section span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#plans-section p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+#plans-section .white-plan{
+    
+    background-color: white;
+    border-radius: 16px;
+}

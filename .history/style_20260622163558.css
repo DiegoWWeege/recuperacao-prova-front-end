@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color: #012E33;
+    width: 100vw;
+    border-bottom: 1px solid #1A4347;
+}
+
+header .get-started-button{
+    background-color: #0EB770;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 2.5rem;
+    width: 8.063rem;
+    border-style: none;
+}
+
