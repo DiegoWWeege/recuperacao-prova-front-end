@@ -1,0 +1,1027 @@
+/*Import da url para utilizarmos a fonte Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Seta a margin e o padding e ja deixa a fonte da lading page inteira como Inter*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+header{
+    background-color: #012E33;
+    border-bottom: 1px solid #1A4247;
+    display: grid;
+    grid-template-columns: 6.25rem 10.313rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.get-started-button{
+    background-color: #0EB770;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 2.5rem;
+    width: 8.063rem;
+    border-style: none;
+    justify-self: end;   
+}
+
+header section{
+    display: grid;
+    grid-template-columns: 8.063rem 1.25rem;
+    align-items: center;
+    gap: 1rem;
+    width:fit-content;
+}
+
+/*--- HERO SECTION ---*/
+.hero-section{
+    background-color: #012E33;
+    padding-top: 4.313rem;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.hero-section section{
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.hero-section h1{
+    font-family: "Inter" , sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.75rem;
+    justify-self: center;
+    margin-left: 5.867vw;
+    margin-right: 2.667vw; 
+}
+
+.hero-section h1,p {
+    max-width: ;
+}
+
+.hero-section span{
+    font-weight: 400;
+    font-family: "Inter" , sans-serif;
+    font-style: italic;
+}
+
+.hero-section p{
+    color: rgba(255, 255, 255, 0.904);
+    line-height: 1.625rem;
+    margin-bottom: 4.313rem;
+    margin-left: 5.867vw;
+}
+
+.hero-section #buttons-section{
+    text-align: center;
+}
+
+.hero-section #buttons-section button{
+    width: 21.438rem;
+    height: 3.5rem;
+}
+
+.hero-section #buttons-section button img{
+    width: 0.969rem;
+    height: 1.094rem;
+    margin: 0rem;
+    margin-right: 1rem;
+}
+
+.hero-section #buttons-section .get-started-button{
+    margin-bottom: 1rem;
+}
+
+.hero-section #buttons-section .play-demo-button{
+    border: 1px solid #044046;
+    border-radius: 100px;
+    background: none;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.hero-section img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/*--- SEÇÃO DA JORNADA DOS PACIENTES ---*/
+.section-patient-journey{
+    background-color: #E4F2F3;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-left: 4.267vw;
+    padding-right: 4.267vw;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.section-patient-journey h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #012E33;
+    text-align: center;
+}
+
+.section-patient-journey #section-main-title{
+    max-width: 45.625rem;
+    justify-self: center;
+    margin-left: 4.267vw;
+    margin-right: 4.267vw;
+}
+
+.section-patient-journey span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-patient-journey p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.section-patient-journey #section-main-paragraph{
+    max-width: 45.625rem;
+    justify-self: center;
+    margin-left: 4.267vw;
+    margin-right: 4.267vw;
+}
+
+.section-patient-journey img{
+    height: 41.627vh;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+
+.section-patient-journey .image-text-benefits{
+    width: 100%;
+    justify-content: center;
+    margin: 0rem;
+}
+
+.section-patient-journey .image-text-benefits h2{
+    text-align: start;
+}
+
+.section-patient-journey .image-text-benefits p{
+    text-align:  start;
+}
+
+.section-patient-journey .image-text-benefits img{
+    display: flex;
+    justify-self: center
+}
+
+.image-text-benefits .benefits-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    margin-top: 1.313rem;
+    margin-bottom: 2rem;
+}
+
+.image-text-benefits .benefits-grid img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0px;
+    justify-self: center;
+}
+
+.image-text-benefits .benefits-grid p{
+    margin: 0px;
+    align-self: center;
+    font-weight: 500;
+}
+
+.image-text-benefits .get-started-button{
+    height: 3rem;
+    width: 8.563rem;
+}
+
+/*--- SEÇÃO DOS RESULTADOS --- 3ª SEÇÃO*/
+
+
+.section-empowering-healthcare{
+    padding-left: 4.267vw;
+    padding-right: 4.267vw;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+
+.section-empowering-healthcare .main-text{
+    margin-top: 3.75rem;
+    max-width: 39.625rem;
+}
+
+.section-empowering-healthcare .main-text h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    line-height: 2.875rem;
+    font-size: 2.25rem;
+    color: #012E33;
+    margin-bottom: 0.75rem;
+}
+
+.section-empowering-healthcare .main-text span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-empowering-healthcare .main-text p{
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #012E33E5;
+    margin-bottom: 2.5rem;
+    
+}
+
+.section-empowering-healthcare .boxes-grid{
+    display: grid;
+    grid-template-columns: 21.438rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    gap: 1.25rem;
+    padding-bottom: 1.5rem;
+    justify-self: center;
+}
+
+.boxes-grid .large-box{
+    background-color: #F3F5F7;
+    height: 22.5rem;
+    padding-left: 1.25rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-right: 1.25rem;
+}
+
+.boxes-grid .tiny-box{
+    background-color: #F3F5F7;
+    height:16.25rem;
+    padding-left:1.25rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-right: 1.25rem;
+}
+
+.boxes-grid .first-p {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    font-family:"Inter" , sans-serif;
+    margin-top: 1.75rem;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    color: #012E33;
+}
+
+.boxes-grid .second-p {
+    font-family: "Inter" , sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.625rem;
+    font-size: 1.125rem;
+    color: #012E33;
+}
+
+#distance-one-p{
+    margin-bottom: 8.8125rem;
+}
+
+#distance-two-p{
+    margin-bottom: 10.4375rem;
+}
+
+.boxes-grid .tiny-box .second-p{
+    margin-bottom: 4.1875rem;
+}
+
+.boxes-grid .third-p {
+    font-family: "Inter" , sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #012E33E5
+}
+
+.boxes-grid .large-box .third-p{
+    padding-top: 0.75rem;
+}
+
+.boxes-grid .tiny-box .third-p{
+    padding-top: 0.75rem;
+}
+
+.linha-horizontal{
+    width: 4.375rem;
+    height: 0.0625rem;
+    background-color: #012E33;
+}
+
+
+/*--- PLANS SECTION - 4ª SEÇÃO ---*/
+#plans-section{
+    background-color: #E4F2F3;
+    padding: 3.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#plans-section h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #012E33;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#plans-section span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#plans-section p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+#plans-section #main-paragraph{
+    margin-bottom: 2.5rem;
+}
+
+#plans-section .plans-universal-paragraph{
+    font-weight: 500;
+    font-style: bold;
+    text-align: start;
+}
+
+#plans-section .white-plan{
+    background-color: white;
+    border-radius: 16px;
+    padding: 1rem; 
+    max-width: 21.438rem;
+    box-sizing: border-box;
+}
+
+#plans-section .white-plan .title{
+    text-align: start;
+    color: #012E33;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#plans-section .white-plan .price{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 1.25rem;
+}
+
+#plans-section .white-plan .blank-get-started-button{
+    background: none;
+    border-style: none;
+    border: 1px solid #20484C;
+    border-radius: 100px;
+    color: #20484C;
+    width: 19.438rem;
+    height: 3rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#plans-section .qualities-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+#plans-section .qualities-grid p{
+    margin: 0px;
+}
+
+#plans-section #green-plan{
+    background-color: #0EB770;
+    padding: 2px;
+    padding-top: 0.5rem;
+    border-radius: 16px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    max-width: 21.438rem;
+}
+
+#plans-section #green-plan #green-plan-text{
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+
+}
+
+#plans-section #green-plan .white-plan{
+    justify-self: center;
+    max-width: 21.188rem;
+}
+
+
+#plans-section #green-plan .white-plan .get-started-button{
+    height: 3rem;
+    width: 19.438rem;
+    margin-top: 1.25rem;
+    margin-bottom:1.25rem ;
+}
+
+/*--- SEÇÃO DE OPINIÃO DOS CLIENTES - 5ª SEÇÃO ---*/
+
+#clients-opinions-section{
+    padding: 1rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+#clients-opinions-section #number-of-reviews{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 16.563rem;
+    height: 2.5rem;
+    align-items: center;
+    box-sizing: border-box;
+    justify-self: center;
+    border: 1px solid #ECECEC;
+    padding: 1rem;
+    padding-top: 0.438rem;
+    padding-bottom: 0.438rem;
+    border-radius: 30px;
+    font-weight: 600;
+    color: #012E33;
+    margin: 0px;
+}
+
+#clients-opinions-section #number-of-reviews p span{
+    color: #FF9853;
+}
+
+#clients-opinions-section #number-of-reviews p{
+    margin: 0px;
+}
+
+#clients-opinions-section h2{
+    font-family: "Inter" , sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #012E33;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+#clients-opinions-section h2 span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#clients-opinions-section p{
+    color: #012e33e7;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.75rem;
+    margin-bottom: 2.5rem;
+}
+
+#clients-opinions-section #second-person-review{
+    display: none;
+}
+
+#clients-opinions-section #third-person-review{
+    display: none;
+}
+
+#clients-opinions-section .person-review{
+    border: 1px solid #E1E1E1;
+    border-radius: 16px;
+    position: relative;
+    padding: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    max-width: 21.438rem;
+    box-sizing: border-box;
+    justify-self: center;
+}
+
+#clients-opinions-section .person-review .person-review-text{
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-align: start;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+#clients-opinions-section .person-review #ballon-text{
+    z-index: -1;
+    position: absolute;
+    top: 75px;
+    left: 15px;
+}
+
+#clients-opinions-section .person-review .person-pfp {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+#clients-opinions-section .person-review .person-pfp p{
+    margin: 0px;
+    text-align: start;
+    color: #12151D;
+    font-weight: 400;
+}
+
+#clients-opinions-section .person-review .person-pfp .person-name{
+    font-weight: 700;
+}
+
+#clients-opinions-section .person-review .person-pfp img{
+    height: 3.25rem;
+    width: 3.25rem;
+    border-radius: 100%;
+}
+
+
+/*--- 6ª SEÇÃO DOIS BOTÕES ---*/
+
+.discover{
+    background-color: #012E33;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.discover h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.875rem;
+    color: #E6EAEB;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.discover span{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.buttons-discover{
+    display: flex;
+    padding-bottom: 2.5rem;
+}
+
+.get-started-button-discover{
+    background-color: #0EB770;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    height: 3rem;
+    width: 10.25rem;
+    border-style: none;
+    line-height: 1.625rem;
+}
+
+.play-demo-button-discover{
+    background-color: white;
+    height: 3rem;
+    width: 10.25rem;
+    border-radius: 100px;
+    border-style: none;
+    border: 1px solid white;
+    color: #012E33;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    margin-right: 0.938rem;
+}
+
+/*---------------FOOTER----------------------*/
+
+footer{
+    background-color: #011E21;
+    padding-left: 1rem;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+footer img {
+    padding-top: 3.75rem;
+    padding-bottom: 0.75rem;
+}
+
+footer p {
+    color: #FFFFFFCC;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding-bottom: 2.5rem;
+    padding-right: 1rem;
+    
+}
+
+footer #main-paragraph{
+    width: 21.438rem;
+}
+
+.grid-footer nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 6.625rem;
+    gap: 1.5rem;
+    row-gap: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 2.5rem;
+    max-width: 5rem;
+}
+
+.grid-p{
+    display: grid;
+    grid-template-columns: 5.5rem 6.125rem 6.625rem;
+    gap: 1.5rem;
+    row-gap: 1rem;
+    margin-right: 1rem;
+    max-width: 100vw;
+}
+
+.grid-p p{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #E8E8E9;
+    padding: 0px;
+    padding-bottom: 1rem;
+}
+
+.grid-footer a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #FFFFFFCC;
+}
+
+/*Adiciona a linha e a estiliza*/
+/*OBS !!! a cor da linha foi copiada e colada exatamente igual a do figma!!!*/
+footer .footer-line{
+    width: 21.438rem;
+    height: 0.063rem;
+    margin-bottom: 1.25rem;
+    background-color: #FDFEFF;
+}
+
+footer .copyright-p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #FFFFFFCC;
+    padding-bottom: 2rem;
+}
+
+footer .social-media-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 2.5rem);
+    gap: 1rem;
+    width: 13rem;
+    height: 2.5rem;
+    padding-bottom: 1.25rem;
+}
+
+footer .social-media{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F3F91A;
+}
+
+footer .social-media img{
+    padding: 0rem;
+}
+
+footer #social-facebook{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0EB770;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px){
+    
+    /*--- AJUSTA GRID DA 3ª SEÇÃO ---*/
+    .section-empowering-healthcare .boxes-grid{
+        display: grid;
+        grid-template-columns: 21.438rem 21.438rem;
+        gap: 1.25rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .section-empowering-healthcare .boxes-grid #first-tiny-box{
+        align-self: flex-end;
+    }
+
+    /*--- AJUSTA GRID DA 5ª SEÇÃO ---*/
+    
+    #clients-opinions-section #people-review-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+    }
+
+    #clients-opinions-section #first-person-review{
+        justify-self: end;
+    }
+
+    #clients-opinions-section #second-person-review{
+        display: block;
+        justify-self: self-start;
+    }
+
+
+
+    /*--- 6ª SEÇÃO DOIS BOTÕES ---*/
+
+    .discover{
+        background-color: #012E33;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .discover h2{
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 2.875rem;
+        color: #E6EAEB;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        display: inline-block;
+    }
+
+    .discover span{
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .buttons-discover{
+        display: flex;
+        padding-bottom: 2.5rem;
+    }
+
+    .get-started-button-discover{
+        background-color: #0EB770;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 100px;
+        height: 3rem;
+        width: 10.25rem;
+        border-style: none;
+        line-height: 1.625rem;
+    }
+
+    .play-demo-button-discover{
+        background-color: white;
+        height: 3rem;
+        width: 10.25rem;
+        border-radius: 100px;
+        border-style: none;
+        border: 1px solid white;
+        color: #012E33;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.625rem;
+        margin-right: 0.938rem;
+    }
+
+    .play-demo-button-discover button img{
+         width: 0.969rem;
+    height: 1.094rem;
+    margin: 0rem;
+    margin-right: 1rem;
+    }
+
+    .buttons-discover{
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 1024px){
+    
+    /*ADICIONANDO GRID NA HERO-SECTION*/
+
+    .hero-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*AJUSTANDO BOTÕES NA HERO-SECTION*/
+
+    .hero-section p{
+        margin-bottom: 2rem;
+    }
+
+    .hero-section #buttons-section{
+
+        display: grid;
+        grid-template-columns: 10.75rem 10.75rem;
+        gap: 1rem;
+        margin-left: 5.867vw;
+    }
+
+    .hero-section #buttons-section button{
+        width: 10.75rem;
+        height: 3.5rem;
+        
+    }
+
+    .hero-section #buttons-section .get-started-button{
+        margin-bottom: 1rem;
+    }
+
+    .hero-section #buttons-section .play-demo-button{
+        border: 1px solid #044046;
+        border-radius: 100px;
+        background: none;
+        color: white;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+
+
+    /*ADICIONANDO GRID NA 3ª SEÇÃO*/
+
+    .section-patient-journey{
+    background-color: #E4F2F3;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    box-sizing: border-box;
+    width: 100vw;
+    }
+    
+    .section-patient-journey h2{
+        font-family: "Inter" , sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #012E33;
+        text-align: center;
+    }
+    
+    .section-patient-journey #section-main-title{
+        max-width: 45.625rem;
+        justify-self: center;
+        margin-left: 4.267vw;
+        margin-right: 4.267vw;
+    }
+    
+    .section-patient-journey span{
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    .section-patient-journey p{
+        color: #012e33e7;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0.75rem;
+    }
+    
+    .section-patient-journey #section-main-paragraph{
+        max-width: 45.625rem;
+        justify-self: center;
+        margin-left: 4.267vw;
+        margin-right: 4.267vw;
+        margin-bottom: 5rem;
+    }
+    
+    .section-patient-journey img{
+        width: 33.438rem;
+        height: 32.5rem;
+        margin: 0rem;
+        align-self: center;
+    }
+    
+    /*.section-patient-journey #images-text-grid{
+    /*    display: grid;
+    /*    grid-template-columns: 1fr 1fr;
+    /*}*/
+    
+    .section-patient-journey .image-text-benefits{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    
+    .section-patient-journey .image-text-benefits .section-text-button{
+        width: 33.438rem;
+        height: 30.25rem;
+        align-self: center;
+        align-content: center;
+    }
+    
+    .section-patient-journey #second-section{
+        flex-direction: row-reverse;
+        margin-top: 7.5rem;
+    }
+    
+    .section-patient-journey .image-text-benefits h2{
+        text-align: start;
+    }
+    
+    .section-patient-journey .image-text-benefits p{
+        text-align:  start;
+    }
+    
+    .section-patient-journey .image-text-benefits img{
+        display: flex;
+        justify-self: center
+    }
+    
+    .image-text-benefits .benefits-grid{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem;
+        margin-top: 1.313rem;
+        margin-bottom: 2rem;
+    }
+    
+    .image-text-benefits .benefits-grid img{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0px;
+        justify-self: center;
+    }
+    
+    .image-text-benefits .benefits-grid p{
+        margin: 0px;
+        align-self: center;
+        font-weight: 500;
+    }
+    
+    .image-text-benefits .get-started-button{
+        height: 3rem;
+        width: 8.563rem;
+    }
+}
+
